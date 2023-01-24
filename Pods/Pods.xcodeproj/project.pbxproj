@@ -1,0 +1,2143 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C5512A8A74F524FD9740BC74898049D /* ArcsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCBAA5511E0CCE7064D91B635202D9 /* ArcsIndicatorView.swift */; };
+		0EFB481B15C70C42834431CE45C72156 /* FlickeringDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A806563DC79238A8D51D8F7E17EC4EB /* FlickeringDotsIndicatorView.swift */; };
+		122515230D4D458F48943D2ED34D724F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		1287BDA0124F0D6B944FC513DF32EA3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		14F321E50DEAA838D360FDF97EE2C7B0 /* SwiftUIGIFPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56484C7CF9CEE6C10ED098B147135D1 /* SwiftUIGIFPlayerView.swift */; };
+		230F24B74196C0C8D5A8370C83A0E754 /* OpacityDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBA856DC5F3B3026FEFA6B06227DF2C /* OpacityDotsIndicatorView.swift */; };
+		28D30537E3ACBAF2BADE111B0AFA4339 /* ActivityIndicatorView-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B6E3DA3F55A0999AE74E2FF7E3A8C6 /* ActivityIndicatorView-iOS-dummy.m */; };
+		2E96F2DC7FAAF59FED2BCABD11EFE824 /* GradientIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B25B40C203A68D174BEED82C43F99C /* GradientIndicatorView.swift */; };
+		2FF7211C5466F8C30D4281D3C8A41670 /* SSSwiftUIGIFView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C53137BB33153B6146B81E018851A094 /* SSSwiftUIGIFView-dummy.m */; };
+		31F8027972D0CA6DE51450289FED13AF /* Pods-Vex Watch App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E397B8A0F2E08B73B459EF88A8395015 /* Pods-Vex Watch App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31FD4A0EAA9EAFFD1E74D8F63855DA38 /* ArcsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCBAA5511E0CCE7064D91B635202D9 /* ArcsIndicatorView.swift */; };
+		343AEDF676DC1DA7E5524D1B233D1C10 /* EqualizerIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4255D05F38E8AA4947BD8A92ED85 /* EqualizerIndicatorView.swift */; };
+		344A00A059C9D1C8905A9A208E6FBC90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		35947DE09166BD09AE6D23F08D8D946B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		462CAEC86170DC7EEB1CB56A152B6191 /* GrowingArcIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8202E8A490A258025FD1A8A2C4BF14 /* GrowingArcIndicatorView.swift */; };
+		481F3BE2185022F134DFD932BBD79A40 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57645410DB6D5A98C3DEF8D1BE777AFB /* BlurView.swift */; };
+		50A8694C38DE2C52A6184A95B44B6AE8 /* ActivityIndicatorView-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 029E6CE9DBEBFB9B99AEFFAFBE3A00BA /* ActivityIndicatorView-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52956276619D3367FA656F1D4266B659 /* Pods-Vex-VexUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FAFDADFA3843CB3568BA49ACA6BF6A /* Pods-Vex-VexUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55A1EE50A437472AE24442F2BC950D98 /* GrowingCircleIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896CAAA15A0E9DE31701EE0FE57EA142 /* GrowingCircleIndicatorView.swift */; };
+		5C7E1FD0252DFA6033E7E08D5984D7B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		654709822EECF455FF0556586DBE2C57 /* Pods-Vex Watch App-Vex Watch AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 410604D197A9D83B0DA598F2CB56F95A /* Pods-Vex Watch App-Vex Watch AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B6C379A1444CACE892E67728901B351 /* ActivityIndicatorView-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B113DE7FD55FDDE55328F07581B38E /* ActivityIndicatorView-watchOS-dummy.m */; };
+		6E4408B4D5A3812D3BD96F846A2897E9 /* Pods-Vex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDEED7AB6D1B61AFAB9E7B2D3663E6D9 /* Pods-Vex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EA08F424ACCD3B0D6222BEF90912961 /* AlertToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C6E22945791231DACA9ECD0AD89F5A /* AlertToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		745A9DAC204EF7C03FC418BB1FECE0FD /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AE90BE984283A8C06888649657F798 /* ActivityIndicatorView.swift */; };
+		74A54AEC2C701FD3966A0B8144B7E6D0 /* Pods-Vex Watch AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E406C2745B74A67FD065FC92D15D1A /* Pods-Vex Watch AppTests-dummy.m */; };
+		7FC344CD618A4453D7B7FA52E9DAF7C8 /* GrowingCircleIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896CAAA15A0E9DE31701EE0FE57EA142 /* GrowingCircleIndicatorView.swift */; };
+		804EC94C47BD9029F24490A228E0ADE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		80DDF397358F0FF16755875DFC623533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		89068BEF39B046B28FD6DA14201044DE /* AlertToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632AF307FE82BB6008E07046AA1A0745 /* AlertToast.swift */; };
+		908D9E786C0E3A791A872EB031390275 /* GIFPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEDD9EBBED497C2C502C86DBA79DD6C /* GIFPlayerView.swift */; };
+		9DC7A27ABAC05299B88D22C699DE43F7 /* Pods-Vex-VexUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 069A26F0552715CEC2E93532EAB23E13 /* Pods-Vex-VexUITests-dummy.m */; };
+		A0485B99E5C9CA3E355027E035A8F5FA /* RotatingDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F859FF4B92DB30BF8428608300B2907 /* RotatingDotsIndicatorView.swift */; };
+		A4DD17EDC8AA39FBD9DA879E8706744E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		A69E86A02B6931A99C551E1B950D85F4 /* Pods-Vex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAED653F4E877C680A3B4ED5137AF03 /* Pods-Vex-dummy.m */; };
+		AA082B4F07A6FA4C6B696A9E87D7FB82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		ABCC96A3F5A122791DAB8A1CFA9BD50D /* AlertToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E551F86CAEBFD793DCB94D74067F5792 /* AlertToast-dummy.m */; };
+		AC995504189161692616F9430985FDB0 /* SSSwiftUIGIFView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EFA9A5241EF867A26B4311C3E09E9A /* SSSwiftUIGIFView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B37F93134898CFBCE46EB17DB49C2B71 /* OpacityDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBA856DC5F3B3026FEFA6B06227DF2C /* OpacityDotsIndicatorView.swift */; };
+		B6CD318485E584EA637AA19485626655 /* Pods-VexTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 054F9F0ED82D603809BB587C564E4128 /* Pods-VexTests-dummy.m */; };
+		BBDCD8CFDC62609C8D10DAC5543B125E /* RotatingDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F859FF4B92DB30BF8428608300B2907 /* RotatingDotsIndicatorView.swift */; };
+		BD86D010ACA471FD35D701C5E594D52A /* GrowingArcIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8202E8A490A258025FD1A8A2C4BF14 /* GrowingArcIndicatorView.swift */; };
+		BE8DEF712A9BD8BEDEAEB738428BE8A8 /* ActivityIndicatorView-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77FFAEAB21366B267A7E0C2A43ED575B /* ActivityIndicatorView-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFD33CAC1D838BBC41FC14A83CC1DA8E /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AE90BE984283A8C06888649657F798 /* ActivityIndicatorView.swift */; };
+		C00FF576B8A514CB5662894F7B2AA46E /* ActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7532E928FA94E8F13B6C8E65BA554B3E /* ActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C13445F0806F5D1CD0760FC3DE2782B6 /* DefaultIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7675E1FE53B7D4294C7529C047EDE577 /* DefaultIndicatorView.swift */; };
+		CA32519351B8EA0111FE250232D247ED /* ScalingDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14E24778EBDE0699F869F446DD6252 /* ScalingDotsIndicatorView.swift */; };
+		CBEF47C8B4A5E833B76967E989BD4167 /* Pods-Vex Watch AppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A563A5B896E116DD288A2C271B170B1 /* Pods-Vex Watch AppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD2DA2A450835C4B8672A65E5910FA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		CF19045C938E12E942337B68F8CECD6D /* Pods-Vex Watch App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD954FCD3B7F8CBD719ECD3498B15BB0 /* Pods-Vex Watch App-dummy.m */; };
+		D65703BBE2E5B3C67D67A3994BF1C617 /* EqualizerIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4255D05F38E8AA4947BD8A92ED85 /* EqualizerIndicatorView.swift */; };
+		D67ECC4531B6047EAD1ED32F1794B2DA /* DefaultIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7675E1FE53B7D4294C7529C047EDE577 /* DefaultIndicatorView.swift */; };
+		DAE75918F0786809E98E99512119DF8D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A19DB1752717F05D575E8E499ED4EE /* ActivityIndicator.swift */; };
+		DD7461B6D3A9F85C7BC3C2A74A8A6B8A /* ActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7532E928FA94E8F13B6C8E65BA554B3E /* ActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5DA2E62D84171D5C7F832A302A92731 /* ScalingDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14E24778EBDE0699F869F446DD6252 /* ScalingDotsIndicatorView.swift */; };
+		EC103B3E220825BF5A9ABF94B42BABF9 /* GradientIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B25B40C203A68D174BEED82C43F99C /* GradientIndicatorView.swift */; };
+		EC54980A918785263F894D083A03E22C /* FlickeringDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A806563DC79238A8D51D8F7E17EC4EB /* FlickeringDotsIndicatorView.swift */; };
+		F1E5AEBC3DC0AD5F082DC3F9EB6DB5E9 /* Pods-Vex Watch App-Vex Watch AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1902E947A21BA855919CA188A5DA705 /* Pods-Vex Watch App-Vex Watch AppUITests-dummy.m */; };
+		F35257A634A37F88937FB7350EAAE901 /* Pods-VexTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85EB2D675EA8A7EE5C935F1BFF1CD2C0 /* Pods-VexTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51E68DE39D3E7C738A632645480F0122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01517380289AFB775A3195676E55786F;
+			remoteInfo = "ActivityIndicatorView-watchOS";
+		};
+		594561547D936C105CF9D2BD1EB918C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52561D5B39733F44C2CA140A67A78E57;
+			remoteInfo = "ActivityIndicatorView-iOS";
+		};
+		64F782D06E0A502CCA5188F8129FE97A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD9F52E07CA8CCC9E5112A7D8C1CE821;
+			remoteInfo = AlertToast;
+		};
+		6A4C3639C0C4C5468279727CE0BB1CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01517380289AFB775A3195676E55786F;
+			remoteInfo = "ActivityIndicatorView-watchOS";
+		};
+		7486385BEBB20721FF137F112F358C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD9F52E07CA8CCC9E5112A7D8C1CE821;
+			remoteInfo = AlertToast;
+		};
+		A526E692CC1AB5351E15830B8EACCADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE69FE8AB101AD37628CA84F6EB71358;
+			remoteInfo = SSSwiftUIGIFView;
+		};
+		A67AE98DD38F1043EA89DD4F3254EA4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE69FE8AB101AD37628CA84F6EB71358;
+			remoteInfo = SSSwiftUIGIFView;
+		};
+		C68EF60DA0CE60128DE290870DDC42BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D4C8A8FC4364EC076E12CA2D0AAA024;
+			remoteInfo = "Pods-Vex";
+		};
+		F043462FC94371B455126F3107EB4C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52561D5B39733F44C2CA140A67A78E57;
+			remoteInfo = "ActivityIndicatorView-iOS";
+		};
+		F7917951D456AB13715B5E24E191D03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E68ECFEAC6B3C44E0A64605F19BADE5;
+			remoteInfo = "Pods-Vex Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B268D230E4EAC92B4B0DF6A8260255 /* Pods-Vex Watch App-Vex Watch AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vex Watch App-Vex Watch AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0208786DCB8F696F5979E4576E157B57 /* Pods-Vex-VexUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vex-VexUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		029E6CE9DBEBFB9B99AEFFAFBE3A00BA /* ActivityIndicatorView-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActivityIndicatorView-iOS-umbrella.h"; sourceTree = "<group>"; };
+		039D960A5355A153A4D8001850751F65 /* Pods-VexTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VexTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		054F9F0ED82D603809BB587C564E4128 /* Pods-VexTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VexTests-dummy.m"; sourceTree = "<group>"; };
+		05DCFE65C036BDD419442178BC182BB9 /* Pods-Vex Watch App-Vex Watch AppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vex Watch App-Vex Watch AppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		069A26F0552715CEC2E93532EAB23E13 /* Pods-Vex-VexUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vex-VexUITests-dummy.m"; sourceTree = "<group>"; };
+		07F74C1B5E42BC3BB0BB240F49C919F4 /* Pods-Vex Watch AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vex Watch AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BD1EDD6E533F1A822A484AA6746DB44 /* ActivityIndicatorView-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ActivityIndicatorView-iOS-Info.plist"; sourceTree = "<group>"; };
+		11B65470866C4AFF1AB4FE9A50BAB1CF /* Pods-Vex Watch AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vex Watch AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		12714030127ECAFDDF1A43A7DE4E2693 /* AlertToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlertToast.modulemap; sourceTree = "<group>"; };
+		15D6FF59B41B9856B7D80C9C0BFFAD21 /* Pods-Vex-VexUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vex-VexUITests.modulemap"; sourceTree = "<group>"; };
+		18227FAF70E01BD76E4F88C7B48A4D2C /* SSSwiftUIGIFView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSSwiftUIGIFView.debug.xcconfig; sourceTree = "<group>"; };
+		19C94C758FC6793A41BA10A0404BD1DE /* Pods-VexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C59FA33ABD7C59246896F9B1D85715E /* AlertToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlertToast-prefix.pch"; sourceTree = "<group>"; };
+		1D1A4255D05F38E8AA4947BD8A92ED85 /* EqualizerIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EqualizerIndicatorView.swift; path = Source/Indicators/EqualizerIndicatorView.swift; sourceTree = "<group>"; };
+		23F18C2CB5849C08AAA455CF9C52BAB6 /* Pods-Vex Watch App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vex Watch App-acknowledgements.plist"; sourceTree = "<group>"; };
+		2688942101F0745995C50AD243AE2F61 /* Pods-Vex Watch AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vex Watch AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B9956CB3F3E8C6A19AAD16DB8EF8B2E /* Pods-Vex Watch App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vex Watch App-frameworks.sh"; sourceTree = "<group>"; };
+		31543E971A38F7118198FBAFD823BE89 /* Pods-Vex Watch App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vex Watch App-Info.plist"; sourceTree = "<group>"; };
+		32FAFDADFA3843CB3568BA49ACA6BF6A /* Pods-Vex-VexUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vex-VexUITests-umbrella.h"; sourceTree = "<group>"; };
+		35DCBAA5511E0CCE7064D91B635202D9 /* ArcsIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArcsIndicatorView.swift; path = Source/Indicators/ArcsIndicatorView.swift; sourceTree = "<group>"; };
+		36D03389D7EE26238B94D371B557AACE /* ActivityIndicatorView-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActivityIndicatorView-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3A806563DC79238A8D51D8F7E17EC4EB /* FlickeringDotsIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlickeringDotsIndicatorView.swift; path = Source/Indicators/FlickeringDotsIndicatorView.swift; sourceTree = "<group>"; };
+		3AEDD9EBBED497C2C502C86DBA79DD6C /* GIFPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFPlayerView.swift; path = Source/GIFPlayerView.swift; sourceTree = "<group>"; };
+		410604D197A9D83B0DA598F2CB56F95A /* Pods-Vex Watch App-Vex Watch AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vex Watch App-Vex Watch AppUITests-umbrella.h"; sourceTree = "<group>"; };
+		416E285FC24E3674715E15B0700481AF /* Pods-Vex-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vex-Info.plist"; sourceTree = "<group>"; };
+		43155C89B1AE3855B637B223D4DDEB2D /* ActivityIndicatorView-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ActivityIndicatorView-watchOS.release.xcconfig"; path = "../ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		470D48B27CCB43F9ADFDA9E23DC6319D /* Pods-Vex-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vex-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BA7CC7EE003D6301F0CB96B49F1F347 /* Pods-VexTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VexTests"; path = Pods_VexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C06B2DFC9E3C29B5216769263460D1F /* SSSwiftUIGIFView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSSwiftUIGIFView.modulemap; sourceTree = "<group>"; };
+		4EEE7C07B793BB73EC600E59C9D0192C /* Pods-Vex-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vex-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50B3E7213CD509A322EF41F17E294981 /* ActivityIndicatorView-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "ActivityIndicatorView-iOS"; path = ActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A830BACEC03AAD32E4FF2A3B58941E /* Pods-Vex Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vex Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		53B6E3DA3F55A0999AE74E2FF7E3A8C6 /* ActivityIndicatorView-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActivityIndicatorView-iOS-dummy.m"; sourceTree = "<group>"; };
+		57645410DB6D5A98C3DEF8D1BE777AFB /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Sources/AlertToast/BlurView.swift; sourceTree = "<group>"; };
+		58B983453051BC8C51ED20DDA6DAF379 /* Pods-Vex Watch App-Vex Watch AppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vex Watch App-Vex Watch AppUITests-Info.plist"; sourceTree = "<group>"; };
+		5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		632AF307FE82BB6008E07046AA1A0745 /* AlertToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertToast.swift; path = Sources/AlertToast/AlertToast.swift; sourceTree = "<group>"; };
+		676D3B0C8A176527221B133DA4D665FA /* SSSwiftUIGIFView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSSwiftUIGIFView.release.xcconfig; sourceTree = "<group>"; };
+		689E7C9572133B5C26B43BE538FA0C7A /* ActivityIndicatorView-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActivityIndicatorView-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		6A79623DA54B51D5EFE8C0EE647BBC89 /* Pods-VexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VexTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F5BD95DF7FAECB9F5AEE945EC5F078E /* Pods-Vex-VexUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vex-VexUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7532E928FA94E8F13B6C8E65BA554B3E /* ActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActivityIndicatorView.h; path = Source/ActivityIndicatorView.h; sourceTree = "<group>"; };
+		7675E1FE53B7D4294C7529C047EDE577 /* DefaultIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultIndicatorView.swift; path = Source/Indicators/DefaultIndicatorView.swift; sourceTree = "<group>"; };
+		77FFAEAB21366B267A7E0C2A43ED575B /* ActivityIndicatorView-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ActivityIndicatorView-watchOS-umbrella.h"; path = "../ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		7AAED653F4E877C680A3B4ED5137AF03 /* Pods-Vex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vex-dummy.m"; sourceTree = "<group>"; };
+		7AC3FACE22AA253E8FC605BCB518D60D /* Pods-Vex Watch App-Vex Watch AppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Vex Watch App-Vex Watch AppUITests"; path = Pods_Vex_Watch_App_Vex_Watch_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8282DDE44A8225742DA416C23874C4A6 /* ActivityIndicatorView-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ActivityIndicatorView-iOS.modulemap"; sourceTree = "<group>"; };
+		8576699A6FBE4444C1143CD5E2F300B6 /* Pods-VexTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VexTests.modulemap"; sourceTree = "<group>"; };
+		85EB2D675EA8A7EE5C935F1BFF1CD2C0 /* Pods-VexTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VexTests-umbrella.h"; sourceTree = "<group>"; };
+		894D690DD27EBDEB056CAC15F1BC8177 /* ActivityIndicatorView-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActivityIndicatorView-iOS-prefix.pch"; sourceTree = "<group>"; };
+		896CAAA15A0E9DE31701EE0FE57EA142 /* GrowingCircleIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrowingCircleIndicatorView.swift; path = Source/Indicators/GrowingCircleIndicatorView.swift; sourceTree = "<group>"; };
+		8A563A5B896E116DD288A2C271B170B1 /* Pods-Vex Watch AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vex Watch AppTests-umbrella.h"; sourceTree = "<group>"; };
+		8C3F0E3B8C2F96AAD296C740175F12CB /* Pods-Vex Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vex Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		8EB8CEAFDD7315A68E402BE940956A1E /* Pods-Vex */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Vex"; path = Pods_Vex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F859FF4B92DB30BF8428608300B2907 /* RotatingDotsIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotatingDotsIndicatorView.swift; path = Source/Indicators/RotatingDotsIndicatorView.swift; sourceTree = "<group>"; };
+		93203DB415398A78A542EA1E91DED8AB /* AlertToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlertToast.release.xcconfig; sourceTree = "<group>"; };
+		93B113DE7FD55FDDE55328F07581B38E /* ActivityIndicatorView-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ActivityIndicatorView-watchOS-dummy.m"; path = "../ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS-dummy.m"; sourceTree = "<group>"; };
+		96B25B40C203A68D174BEED82C43F99C /* GradientIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientIndicatorView.swift; path = Source/Indicators/GradientIndicatorView.swift; sourceTree = "<group>"; };
+		9722050D7C5127576D59930222505A10 /* ActivityIndicatorView-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ActivityIndicatorView-watchOS.debug.xcconfig"; path = "../ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		986C91A9C3AEA7179638396481C351A8 /* Pods-Vex Watch App-Vex Watch AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vex Watch App-Vex Watch AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A7E9CEC4BD9D5B800ABD5679C485B71 /* Pods-Vex Watch App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Vex Watch App"; path = Pods_Vex_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8202E8A490A258025FD1A8A2C4BF14 /* GrowingArcIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrowingArcIndicatorView.swift; path = Source/Indicators/GrowingArcIndicatorView.swift; sourceTree = "<group>"; };
+		9C3504B28B140D1C7AA595CC3952227F /* Pods-Vex Watch App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vex Watch App.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A085D5B81B114AC13FE025125A4E6875 /* Pods-Vex-VexUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Vex-VexUITests"; path = Pods_Vex_VexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1902E947A21BA855919CA188A5DA705 /* Pods-Vex Watch App-Vex Watch AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vex Watch App-Vex Watch AppUITests-dummy.m"; sourceTree = "<group>"; };
+		A2AE90BE984283A8C06888649657F798 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorView.swift; path = Source/ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		A2C6E22945791231DACA9ECD0AD89F5A /* AlertToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlertToast-umbrella.h"; sourceTree = "<group>"; };
+		A50F036BE0BFE618C67FA52B80377F3B /* AlertToast */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlertToast; path = AlertToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8054DB080AA2E76924015534C9CD075 /* Pods-Vex Watch AppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Vex Watch AppTests"; path = Pods_Vex_Watch_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A810C69717129A0DBF61684318E488A2 /* Pods-Vex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vex.debug.xcconfig"; sourceTree = "<group>"; };
+		A8CA6A36B51332BE3118DEC4ECACA87E /* Pods-VexTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VexTests-Info.plist"; sourceTree = "<group>"; };
+		AB8FE14FEF95C61D82939B3DA5964454 /* Pods-VexTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VexTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B18218B8E7F3396A026FD2996B8F7875 /* SSSwiftUIGIFView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSSwiftUIGIFView-Info.plist"; sourceTree = "<group>"; };
+		B2671B790EB6B82B1E017F677C5FCC58 /* ActivityIndicatorView-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "ActivityIndicatorView-watchOS.modulemap"; path = "../ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS.modulemap"; sourceTree = "<group>"; };
+		B2A29FD91EDDF83032142B5A4C8C3E59 /* Pods-Vex Watch AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vex Watch AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B54DFA6C50B64E8449B5F27F7C8DA605 /* Pods-Vex Watch AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vex Watch AppTests.modulemap"; sourceTree = "<group>"; };
+		B56484C7CF9CEE6C10ED098B147135D1 /* SwiftUIGIFPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUIGIFPlayerView.swift; path = Source/SwiftUIGIFPlayerView.swift; sourceTree = "<group>"; };
+		B6629DE41E4E0A667EC14A4B257B8B82 /* SSSwiftUIGIFView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSSwiftUIGIFView-prefix.pch"; sourceTree = "<group>"; };
+		BB11174BE2C0745172BAD498D229DB76 /* Pods-Vex Watch App-Vex Watch AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vex Watch App-Vex Watch AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCEAF9DCC784F212829F7CA6C8FC3346 /* Pods-Vex-VexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vex-VexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BDBA856DC5F3B3026FEFA6B06227DF2C /* OpacityDotsIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpacityDotsIndicatorView.swift; path = Source/Indicators/OpacityDotsIndicatorView.swift; sourceTree = "<group>"; };
+		BDEED7AB6D1B61AFAB9E7B2D3663E6D9 /* Pods-Vex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vex-umbrella.h"; sourceTree = "<group>"; };
+		C4B3C79F4969EE4D38E8CF75FFA89F82 /* Pods-Vex Watch AppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vex Watch AppTests-Info.plist"; sourceTree = "<group>"; };
+		C53137BB33153B6146B81E018851A094 /* SSSwiftUIGIFView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSSwiftUIGIFView-dummy.m"; sourceTree = "<group>"; };
+		C6B2606064C6E72CE74B84A4F6BFD373 /* AlertToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlertToast-Info.plist"; sourceTree = "<group>"; };
+		C738DD380890C97388D9F8CAF60B518E /* Pods-Vex-VexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vex-VexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C76994256A8E00305B53EDA632D88A95 /* AlertToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlertToast.debug.xcconfig; sourceTree = "<group>"; };
+		C82786C794901FD2825D426540B5E217 /* Pods-Vex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vex.release.xcconfig"; sourceTree = "<group>"; };
+		CD954FCD3B7F8CBD719ECD3498B15BB0 /* Pods-Vex Watch App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vex Watch App-dummy.m"; sourceTree = "<group>"; };
+		CE863EF19A0A8F486E1B0E78AEB9A012 /* Pods-Vex-VexUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vex-VexUITests-Info.plist"; sourceTree = "<group>"; };
+		D460BBBC16BFA912DCD45062A92427E8 /* Pods-Vex Watch App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vex Watch App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6AAE03356A01614C5DC74F445491505 /* ActivityIndicatorView-watchOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "ActivityIndicatorView-watchOS"; path = ActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CEBB5174843DA59E56ABBD1E3E20E8 /* ActivityIndicatorView-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ActivityIndicatorView-watchOS-prefix.pch"; path = "../ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		DC40A3D5168C03DB03E8C464D40082CF /* ActivityIndicatorView-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ActivityIndicatorView-watchOS-Info.plist"; path = "../ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS-Info.plist"; sourceTree = "<group>"; };
+		E0DBC374598356ABF9FD284CAFF41BCC /* Pods-Vex Watch App-Vex Watch AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vex Watch App-Vex Watch AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E35CBF61668762BF6FC943CAA12BC8E7 /* Pods-Vex-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vex-frameworks.sh"; sourceTree = "<group>"; };
+		E397B8A0F2E08B73B459EF88A8395015 /* Pods-Vex Watch App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vex Watch App-umbrella.h"; sourceTree = "<group>"; };
+		E551F86CAEBFD793DCB94D74067F5792 /* AlertToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlertToast-dummy.m"; sourceTree = "<group>"; };
+		E9E406C2745B74A67FD065FC92D15D1A /* Pods-Vex Watch AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vex Watch AppTests-dummy.m"; sourceTree = "<group>"; };
+		EB14E24778EBDE0699F869F446DD6252 /* ScalingDotsIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScalingDotsIndicatorView.swift; path = Source/Indicators/ScalingDotsIndicatorView.swift; sourceTree = "<group>"; };
+		ED51E9C639C8FFA6E92E6BECC847BA7D /* SSSwiftUIGIFView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSSwiftUIGIFView; path = SSSwiftUIGIFView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA2F1F0314A94A245F71372A5364009 /* Pods-Vex-VexUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vex-VexUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F2A19DB1752717F05D575E8E499ED4EE /* ActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = Sources/AlertToast/ActivityIndicator.swift; sourceTree = "<group>"; };
+		F5EFA9A5241EF867A26B4311C3E09E9A /* SSSwiftUIGIFView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSSwiftUIGIFView-umbrella.h"; sourceTree = "<group>"; };
+		F6725D9370DCF8AC02B9F39491A022FB /* Pods-Vex Watch App-Vex Watch AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vex Watch App-Vex Watch AppUITests.modulemap"; sourceTree = "<group>"; };
+		F9373C21F425CF5718FB268B50736EF2 /* Pods-Vex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Vex.modulemap"; sourceTree = "<group>"; };
+		FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		347779031190EDC071A4F2E9073598F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7E1FD0252DFA6033E7E08D5984D7B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4483220E3F788EB4EC32C4F8522CB945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2DA2A450835C4B8672A65E5910FA96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD1903F1579A3976B627F2DD9B10EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DD17EDC8AA39FBD9DA879E8706744E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6966BC4C753F23393B3F13B93E79FEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122515230D4D458F48943D2ED34D724F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C425619CC56CE5C9DE205DA2327237D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA082B4F07A6FA4C6B696A9E87D7FB82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA11805140D9C7978AACF232769A6C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DDF397358F0FF16755875DFC623533 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBDB5E1A0C9BADD805241F95C3A91C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804EC94C47BD9029F24490A228E0ADE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE9A3A9024344923E92618BEDE5BECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344A00A059C9D1C8905A9A208E6FBC90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE95C00C31EA78010DACC0E13BB8C809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35947DE09166BD09AE6D23F08D8D946B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9454103F8A539FF665F17004EB86BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1287BDA0124F0D6B944FC513DF32EA3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FBABE5ACCBF0D21AB61D364299D310 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0BEE00BF2D260DBD1726ABA42A02D736 /* Pods-Vex-VexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15D6FF59B41B9856B7D80C9C0BFFAD21 /* Pods-Vex-VexUITests.modulemap */,
+				0208786DCB8F696F5979E4576E157B57 /* Pods-Vex-VexUITests-acknowledgements.markdown */,
+				6F5BD95DF7FAECB9F5AEE945EC5F078E /* Pods-Vex-VexUITests-acknowledgements.plist */,
+				069A26F0552715CEC2E93532EAB23E13 /* Pods-Vex-VexUITests-dummy.m */,
+				EDA2F1F0314A94A245F71372A5364009 /* Pods-Vex-VexUITests-frameworks.sh */,
+				CE863EF19A0A8F486E1B0E78AEB9A012 /* Pods-Vex-VexUITests-Info.plist */,
+				32FAFDADFA3843CB3568BA49ACA6BF6A /* Pods-Vex-VexUITests-umbrella.h */,
+				C738DD380890C97388D9F8CAF60B518E /* Pods-Vex-VexUITests.debug.xcconfig */,
+				BCEAF9DCC784F212829F7CA6C8FC3346 /* Pods-Vex-VexUITests.release.xcconfig */,
+			);
+			name = "Pods-Vex-VexUITests";
+			path = "Target Support Files/Pods-Vex-VexUITests";
+			sourceTree = "<group>";
+		};
+		186E354E331BABBBCC6CB99695F6DC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50B3E7213CD509A322EF41F17E294981 /* ActivityIndicatorView-iOS */,
+				D6AAE03356A01614C5DC74F445491505 /* ActivityIndicatorView-watchOS */,
+				A50F036BE0BFE618C67FA52B80377F3B /* AlertToast */,
+				8EB8CEAFDD7315A68E402BE940956A1E /* Pods-Vex */,
+				9A7E9CEC4BD9D5B800ABD5679C485B71 /* Pods-Vex Watch App */,
+				7AC3FACE22AA253E8FC605BCB518D60D /* Pods-Vex Watch App-Vex Watch AppUITests */,
+				A8054DB080AA2E76924015534C9CD075 /* Pods-Vex Watch AppTests */,
+				A085D5B81B114AC13FE025125A4E6875 /* Pods-Vex-VexUITests */,
+				4BA7CC7EE003D6301F0CB96B49F1F347 /* Pods-VexTests */,
+				ED51E9C639C8FFA6E92E6BECC847BA7D /* SSSwiftUIGIFView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1972163A2B8F5CFB43F287A9412B7A92 /* AlertToast */ = {
+			isa = PBXGroup;
+			children = (
+				F2A19DB1752717F05D575E8E499ED4EE /* ActivityIndicator.swift */,
+				632AF307FE82BB6008E07046AA1A0745 /* AlertToast.swift */,
+				57645410DB6D5A98C3DEF8D1BE777AFB /* BlurView.swift */,
+				43B81509C868D1F5CD2711AAB576A0B5 /* Support Files */,
+			);
+			name = AlertToast;
+			path = AlertToast;
+			sourceTree = "<group>";
+		};
+		1D01FFB36CD700F6BB2231AA804109DE /* Pods-Vex */ = {
+			isa = PBXGroup;
+			children = (
+				F9373C21F425CF5718FB268B50736EF2 /* Pods-Vex.modulemap */,
+				4EEE7C07B793BB73EC600E59C9D0192C /* Pods-Vex-acknowledgements.markdown */,
+				470D48B27CCB43F9ADFDA9E23DC6319D /* Pods-Vex-acknowledgements.plist */,
+				7AAED653F4E877C680A3B4ED5137AF03 /* Pods-Vex-dummy.m */,
+				E35CBF61668762BF6FC943CAA12BC8E7 /* Pods-Vex-frameworks.sh */,
+				416E285FC24E3674715E15B0700481AF /* Pods-Vex-Info.plist */,
+				BDEED7AB6D1B61AFAB9E7B2D3663E6D9 /* Pods-Vex-umbrella.h */,
+				A810C69717129A0DBF61684318E488A2 /* Pods-Vex.debug.xcconfig */,
+				C82786C794901FD2825D426540B5E217 /* Pods-Vex.release.xcconfig */,
+			);
+			name = "Pods-Vex";
+			path = "Target Support Files/Pods-Vex";
+			sourceTree = "<group>";
+		};
+		30706115B86E706ABA17EA51A13849BC /* Pods-Vex Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B54DFA6C50B64E8449B5F27F7C8DA605 /* Pods-Vex Watch AppTests.modulemap */,
+				07F74C1B5E42BC3BB0BB240F49C919F4 /* Pods-Vex Watch AppTests-acknowledgements.markdown */,
+				B2A29FD91EDDF83032142B5A4C8C3E59 /* Pods-Vex Watch AppTests-acknowledgements.plist */,
+				E9E406C2745B74A67FD065FC92D15D1A /* Pods-Vex Watch AppTests-dummy.m */,
+				C4B3C79F4969EE4D38E8CF75FFA89F82 /* Pods-Vex Watch AppTests-Info.plist */,
+				8A563A5B896E116DD288A2C271B170B1 /* Pods-Vex Watch AppTests-umbrella.h */,
+				2688942101F0745995C50AD243AE2F61 /* Pods-Vex Watch AppTests.debug.xcconfig */,
+				11B65470866C4AFF1AB4FE9A50BAB1CF /* Pods-Vex Watch AppTests.release.xcconfig */,
+			);
+			name = "Pods-Vex Watch AppTests";
+			path = "Target Support Files/Pods-Vex Watch AppTests";
+			sourceTree = "<group>";
+		};
+		43B81509C868D1F5CD2711AAB576A0B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12714030127ECAFDDF1A43A7DE4E2693 /* AlertToast.modulemap */,
+				E551F86CAEBFD793DCB94D74067F5792 /* AlertToast-dummy.m */,
+				C6B2606064C6E72CE74B84A4F6BFD373 /* AlertToast-Info.plist */,
+				1C59FA33ABD7C59246896F9B1D85715E /* AlertToast-prefix.pch */,
+				A2C6E22945791231DACA9ECD0AD89F5A /* AlertToast-umbrella.h */,
+				C76994256A8E00305B53EDA632D88A95 /* AlertToast.debug.xcconfig */,
+				93203DB415398A78A542EA1E91DED8AB /* AlertToast.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlertToast";
+			sourceTree = "<group>";
+		};
+		54CCD06893F300F5B2C02DAFD57093E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03FBABE5ACCBF0D21AB61D364299D310 /* iOS */,
+				8B063FB5829CC11F1F48DAAF9305FCB4 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7931DE3FAC6608BAEBD2237D345DA3E4 /* SSSwiftUIGIFView */ = {
+			isa = PBXGroup;
+			children = (
+				3AEDD9EBBED497C2C502C86DBA79DD6C /* GIFPlayerView.swift */,
+				B56484C7CF9CEE6C10ED098B147135D1 /* SwiftUIGIFPlayerView.swift */,
+				EAB5C01FCC76D6CD3031F5D53F993B7F /* Support Files */,
+			);
+			name = SSSwiftUIGIFView;
+			path = SSSwiftUIGIFView;
+			sourceTree = "<group>";
+		};
+		830B6B23DEEEE6B2E0C3DC9298ED1508 /* Pods-Vex Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9C3504B28B140D1C7AA595CC3952227F /* Pods-Vex Watch App.modulemap */,
+				D460BBBC16BFA912DCD45062A92427E8 /* Pods-Vex Watch App-acknowledgements.markdown */,
+				23F18C2CB5849C08AAA455CF9C52BAB6 /* Pods-Vex Watch App-acknowledgements.plist */,
+				CD954FCD3B7F8CBD719ECD3498B15BB0 /* Pods-Vex Watch App-dummy.m */,
+				2B9956CB3F3E8C6A19AAD16DB8EF8B2E /* Pods-Vex Watch App-frameworks.sh */,
+				31543E971A38F7118198FBAFD823BE89 /* Pods-Vex Watch App-Info.plist */,
+				E397B8A0F2E08B73B459EF88A8395015 /* Pods-Vex Watch App-umbrella.h */,
+				8C3F0E3B8C2F96AAD296C740175F12CB /* Pods-Vex Watch App.debug.xcconfig */,
+				52A830BACEC03AAD32E4FF2A3B58941E /* Pods-Vex Watch App.release.xcconfig */,
+			);
+			name = "Pods-Vex Watch App";
+			path = "Target Support Files/Pods-Vex Watch App";
+			sourceTree = "<group>";
+		};
+		858D6955CD628B21D45B7E7AD9B55E7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FA2521E5C45AA2B7BE7AA71A46050F4 /* ActivityIndicatorView */,
+				1972163A2B8F5CFB43F287A9412B7A92 /* AlertToast */,
+				7931DE3FAC6608BAEBD2237D345DA3E4 /* SSSwiftUIGIFView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B063FB5829CC11F1F48DAAF9305FCB4 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		8FA2521E5C45AA2B7BE7AA71A46050F4 /* ActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				7532E928FA94E8F13B6C8E65BA554B3E /* ActivityIndicatorView.h */,
+				A2AE90BE984283A8C06888649657F798 /* ActivityIndicatorView.swift */,
+				35DCBAA5511E0CCE7064D91B635202D9 /* ArcsIndicatorView.swift */,
+				7675E1FE53B7D4294C7529C047EDE577 /* DefaultIndicatorView.swift */,
+				1D1A4255D05F38E8AA4947BD8A92ED85 /* EqualizerIndicatorView.swift */,
+				3A806563DC79238A8D51D8F7E17EC4EB /* FlickeringDotsIndicatorView.swift */,
+				96B25B40C203A68D174BEED82C43F99C /* GradientIndicatorView.swift */,
+				9A8202E8A490A258025FD1A8A2C4BF14 /* GrowingArcIndicatorView.swift */,
+				896CAAA15A0E9DE31701EE0FE57EA142 /* GrowingCircleIndicatorView.swift */,
+				BDBA856DC5F3B3026FEFA6B06227DF2C /* OpacityDotsIndicatorView.swift */,
+				8F859FF4B92DB30BF8428608300B2907 /* RotatingDotsIndicatorView.swift */,
+				EB14E24778EBDE0699F869F446DD6252 /* ScalingDotsIndicatorView.swift */,
+				DFC883A7F33A3EA213C7A3E3978C76C0 /* Support Files */,
+			);
+			name = ActivityIndicatorView;
+			path = ActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				54CCD06893F300F5B2C02DAFD57093E1 /* Frameworks */,
+				858D6955CD628B21D45B7E7AD9B55E7B /* Pods */,
+				186E354E331BABBBCC6CB99695F6DC64 /* Products */,
+				D5E5EEC66F888EDC52873BB3AEF3C918 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E5EEC66F888EDC52873BB3AEF3C918 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D01FFB36CD700F6BB2231AA804109DE /* Pods-Vex */,
+				830B6B23DEEEE6B2E0C3DC9298ED1508 /* Pods-Vex Watch App */,
+				FF919CDC71B78825D74A5F8FB1BD331D /* Pods-Vex Watch App-Vex Watch AppUITests */,
+				30706115B86E706ABA17EA51A13849BC /* Pods-Vex Watch AppTests */,
+				0BEE00BF2D260DBD1726ABA42A02D736 /* Pods-Vex-VexUITests */,
+				FAA21770A964C109AB6A8701E0012EC3 /* Pods-VexTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DFC883A7F33A3EA213C7A3E3978C76C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8282DDE44A8225742DA416C23874C4A6 /* ActivityIndicatorView-iOS.modulemap */,
+				53B6E3DA3F55A0999AE74E2FF7E3A8C6 /* ActivityIndicatorView-iOS-dummy.m */,
+				0BD1EDD6E533F1A822A484AA6746DB44 /* ActivityIndicatorView-iOS-Info.plist */,
+				894D690DD27EBDEB056CAC15F1BC8177 /* ActivityIndicatorView-iOS-prefix.pch */,
+				029E6CE9DBEBFB9B99AEFFAFBE3A00BA /* ActivityIndicatorView-iOS-umbrella.h */,
+				36D03389D7EE26238B94D371B557AACE /* ActivityIndicatorView-iOS.debug.xcconfig */,
+				689E7C9572133B5C26B43BE538FA0C7A /* ActivityIndicatorView-iOS.release.xcconfig */,
+				B2671B790EB6B82B1E017F677C5FCC58 /* ActivityIndicatorView-watchOS.modulemap */,
+				93B113DE7FD55FDDE55328F07581B38E /* ActivityIndicatorView-watchOS-dummy.m */,
+				DC40A3D5168C03DB03E8C464D40082CF /* ActivityIndicatorView-watchOS-Info.plist */,
+				D6CEBB5174843DA59E56ABBD1E3E20E8 /* ActivityIndicatorView-watchOS-prefix.pch */,
+				77FFAEAB21366B267A7E0C2A43ED575B /* ActivityIndicatorView-watchOS-umbrella.h */,
+				9722050D7C5127576D59930222505A10 /* ActivityIndicatorView-watchOS.debug.xcconfig */,
+				43155C89B1AE3855B637B223D4DDEB2D /* ActivityIndicatorView-watchOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ActivityIndicatorView-iOS";
+			sourceTree = "<group>";
+		};
+		EAB5C01FCC76D6CD3031F5D53F993B7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C06B2DFC9E3C29B5216769263460D1F /* SSSwiftUIGIFView.modulemap */,
+				C53137BB33153B6146B81E018851A094 /* SSSwiftUIGIFView-dummy.m */,
+				B18218B8E7F3396A026FD2996B8F7875 /* SSSwiftUIGIFView-Info.plist */,
+				B6629DE41E4E0A667EC14A4B257B8B82 /* SSSwiftUIGIFView-prefix.pch */,
+				F5EFA9A5241EF867A26B4311C3E09E9A /* SSSwiftUIGIFView-umbrella.h */,
+				18227FAF70E01BD76E4F88C7B48A4D2C /* SSSwiftUIGIFView.debug.xcconfig */,
+				676D3B0C8A176527221B133DA4D665FA /* SSSwiftUIGIFView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSSwiftUIGIFView";
+			sourceTree = "<group>";
+		};
+		FAA21770A964C109AB6A8701E0012EC3 /* Pods-VexTests */ = {
+			isa = PBXGroup;
+			children = (
+				8576699A6FBE4444C1143CD5E2F300B6 /* Pods-VexTests.modulemap */,
+				039D960A5355A153A4D8001850751F65 /* Pods-VexTests-acknowledgements.markdown */,
+				AB8FE14FEF95C61D82939B3DA5964454 /* Pods-VexTests-acknowledgements.plist */,
+				054F9F0ED82D603809BB587C564E4128 /* Pods-VexTests-dummy.m */,
+				A8CA6A36B51332BE3118DEC4ECACA87E /* Pods-VexTests-Info.plist */,
+				85EB2D675EA8A7EE5C935F1BFF1CD2C0 /* Pods-VexTests-umbrella.h */,
+				19C94C758FC6793A41BA10A0404BD1DE /* Pods-VexTests.debug.xcconfig */,
+				6A79623DA54B51D5EFE8C0EE647BBC89 /* Pods-VexTests.release.xcconfig */,
+			);
+			name = "Pods-VexTests";
+			path = "Target Support Files/Pods-VexTests";
+			sourceTree = "<group>";
+		};
+		FF919CDC71B78825D74A5F8FB1BD331D /* Pods-Vex Watch App-Vex Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6725D9370DCF8AC02B9F39491A022FB /* Pods-Vex Watch App-Vex Watch AppUITests.modulemap */,
+				00B268D230E4EAC92B4B0DF6A8260255 /* Pods-Vex Watch App-Vex Watch AppUITests-acknowledgements.markdown */,
+				BB11174BE2C0745172BAD498D229DB76 /* Pods-Vex Watch App-Vex Watch AppUITests-acknowledgements.plist */,
+				A1902E947A21BA855919CA188A5DA705 /* Pods-Vex Watch App-Vex Watch AppUITests-dummy.m */,
+				05DCFE65C036BDD419442178BC182BB9 /* Pods-Vex Watch App-Vex Watch AppUITests-frameworks.sh */,
+				58B983453051BC8C51ED20DDA6DAF379 /* Pods-Vex Watch App-Vex Watch AppUITests-Info.plist */,
+				410604D197A9D83B0DA598F2CB56F95A /* Pods-Vex Watch App-Vex Watch AppUITests-umbrella.h */,
+				986C91A9C3AEA7179638396481C351A8 /* Pods-Vex Watch App-Vex Watch AppUITests.debug.xcconfig */,
+				E0DBC374598356ABF9FD284CAFF41BCC /* Pods-Vex Watch App-Vex Watch AppUITests.release.xcconfig */,
+			);
+			name = "Pods-Vex Watch App-Vex Watch AppUITests";
+			path = "Target Support Files/Pods-Vex Watch App-Vex Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		407D6B51A998210C59B338F127590186 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4408B4D5A3812D3BD96F846A2897E9 /* Pods-Vex-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A84C91FAC6DAD40F1A43DEF8DDCA81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA08F424ACCD3B0D6222BEF90912961 /* AlertToast-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789EC532A9ACAD847782AEB69ACC7CB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654709822EECF455FF0556586DBE2C57 /* Pods-Vex Watch App-Vex Watch AppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FF3DFE4C23845755240E11C3A81D18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00FF576B8A514CB5662894F7B2AA46E /* ActivityIndicatorView.h in Headers */,
+				50A8694C38DE2C52A6184A95B44B6AE8 /* ActivityIndicatorView-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E7F1983B96430599E054296DB6DB544 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35257A634A37F88937FB7350EAAE901 /* Pods-VexTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF202E9805C51EA8529352712933D9CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52956276619D3367FA656F1D4266B659 /* Pods-Vex-VexUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFBD00AF86643E72CD8CE78F4B8CF4F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F8027972D0CA6DE51450289FED13AF /* Pods-Vex Watch App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23A79C645848F0C60E1081451EEE1B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEF47C8B4A5E833B76967E989BD4167 /* Pods-Vex Watch AppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B63D90B1DE89F8076D6B6C817AFD65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC995504189161692616F9430985FDB0 /* SSSwiftUIGIFView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AF1D4EC1FA5E6C9AB9A45FDFA67990 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7461B6D3A9F85C7BC3C2A74A8A6B8A /* ActivityIndicatorView.h in Headers */,
+				BE8DEF712A9BD8BEDEAEB738428BE8A8 /* ActivityIndicatorView-watchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01517380289AFB775A3195676E55786F /* ActivityIndicatorView-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1EA7B7D5453C068D512E4FABD51829 /* Build configuration list for PBXNativeTarget "ActivityIndicatorView-watchOS" */;
+			buildPhases = (
+				F4AF1D4EC1FA5E6C9AB9A45FDFA67990 /* Headers */,
+				60452343BCAF91D957090A28149E0F11 /* Sources */,
+				8CA11805140D9C7978AACF232769A6C6 /* Frameworks */,
+				BFD298C0D11F7695C3F8E018B3483698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActivityIndicatorView-watchOS";
+			productName = ActivityIndicatorView;
+			productReference = D6AAE03356A01614C5DC74F445491505 /* ActivityIndicatorView-watchOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D4C8A8FC4364EC076E12CA2D0AAA024 /* Pods-Vex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE06345EFCBDA8AD129DAB254D317165 /* Build configuration list for PBXNativeTarget "Pods-Vex" */;
+			buildPhases = (
+				407D6B51A998210C59B338F127590186 /* Headers */,
+				B494184E83F3AA5B9444086AE0826015 /* Sources */,
+				6966BC4C753F23393B3F13B93E79FEBB /* Frameworks */,
+				EF3B663CF58EAF650B1A604AA2AA9AD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFE1972545839EDEEA7E1BABB2F3D030 /* PBXTargetDependency */,
+				900E284E31404E258A033CAF698EC71B /* PBXTargetDependency */,
+				E1656E9D2AD2420159F9C19D77939F70 /* PBXTargetDependency */,
+			);
+			name = "Pods-Vex";
+			productName = Pods_Vex;
+			productReference = 8EB8CEAFDD7315A68E402BE940956A1E /* Pods-Vex */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B0B981002DB550F84F1C87EE9586E38 /* Pods-VexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093BD490559AC5F0D7851A1F49E95A91 /* Build configuration list for PBXNativeTarget "Pods-VexTests" */;
+			buildPhases = (
+				9E7F1983B96430599E054296DB6DB544 /* Headers */,
+				C1A14C42D0CF6C6D5EE254B83885BEF9 /* Sources */,
+				DE95C00C31EA78010DACC0E13BB8C809 /* Frameworks */,
+				C8C10E5D080DDB1D2FBA1E358F4D7334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E82FF28BDA754910079C25CB8368A501 /* PBXTargetDependency */,
+			);
+			name = "Pods-VexTests";
+			productName = Pods_VexTests;
+			productReference = 4BA7CC7EE003D6301F0CB96B49F1F347 /* Pods-VexTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C24C6128FDED58C4DC1CA2B6FCA8104 /* Pods-Vex-VexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DD57A1140254CBEEE76B5336109073 /* Build configuration list for PBXNativeTarget "Pods-Vex-VexUITests" */;
+			buildPhases = (
+				AF202E9805C51EA8529352712933D9CD /* Headers */,
+				94B932C4E228AE29347B71B7CD7A9C17 /* Sources */,
+				7C425619CC56CE5C9DE205DA2327237D /* Frameworks */,
+				E82621033C93734B67DCEBFEBF9E8B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77665DD7F0F52214D81EEF9BD9C2F2F1 /* PBXTargetDependency */,
+				9046134AF8601ADAC7B4230E2537925B /* PBXTargetDependency */,
+				30FA5728EDD18B1BAC5E63DF577D8650 /* PBXTargetDependency */,
+			);
+			name = "Pods-Vex-VexUITests";
+			productName = Pods_Vex_VexUITests;
+			productReference = A085D5B81B114AC13FE025125A4E6875 /* Pods-Vex-VexUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E68ECFEAC6B3C44E0A64605F19BADE5 /* Pods-Vex Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61752D256887A88AC110045A2C15B045 /* Build configuration list for PBXNativeTarget "Pods-Vex Watch App" */;
+			buildPhases = (
+				AFBD00AF86643E72CD8CE78F4B8CF4F1 /* Headers */,
+				D84C4CD36B6EC67A3FD19CA22047EEFC /* Sources */,
+				4483220E3F788EB4EC32C4F8522CB945 /* Frameworks */,
+				FB9567C7AC8F7973B11F5510D05A7288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2CB70CE1C519E6A9CA1FFFAA0DEC07 /* PBXTargetDependency */,
+			);
+			name = "Pods-Vex Watch App";
+			productName = Pods_Vex_Watch_App;
+			productReference = 9A7E9CEC4BD9D5B800ABD5679C485B71 /* Pods-Vex Watch App */;
+			productType = "com.apple.product-type.framework";
+		};
+		52561D5B39733F44C2CA140A67A78E57 /* ActivityIndicatorView-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9913C04A71787E7F586912E54779F6F5 /* Build configuration list for PBXNativeTarget "ActivityIndicatorView-iOS" */;
+			buildPhases = (
+				86FF3DFE4C23845755240E11C3A81D18 /* Headers */,
+				3D4A13A0DB89E38E003E6D6827090D63 /* Sources */,
+				E9454103F8A539FF665F17004EB86BC8 /* Frameworks */,
+				D4ED4002259A66C5076E907A8F8C35DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActivityIndicatorView-iOS";
+			productName = ActivityIndicatorView;
+			productReference = 50B3E7213CD509A322EF41F17E294981 /* ActivityIndicatorView-iOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DE5D7F3A3CAF75FC4EFB96047627BA8 /* Pods-Vex Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85AC8DB187A049A8AE9DE5C317C5847 /* Build configuration list for PBXNativeTarget "Pods-Vex Watch AppTests" */;
+			buildPhases = (
+				D23A79C645848F0C60E1081451EEE1B9 /* Headers */,
+				C2186803DAD3F4028ADD43503F85A498 /* Sources */,
+				4FD1903F1579A3976B627F2DD9B10EE6 /* Frameworks */,
+				0F8F4AACC686A50CC22FD75EF091CAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB9B06C1F7CBC2CFF8C08164A144C42 /* PBXTargetDependency */,
+			);
+			name = "Pods-Vex Watch AppTests";
+			productName = Pods_Vex_Watch_AppTests;
+			productReference = A8054DB080AA2E76924015534C9CD075 /* Pods-Vex Watch AppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF182F1E341884CDFCF4BB960A729157 /* Pods-Vex Watch App-Vex Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65686390933B3BC6FD114A33482F412A /* Build configuration list for PBXNativeTarget "Pods-Vex Watch App-Vex Watch AppUITests" */;
+			buildPhases = (
+				789EC532A9ACAD847782AEB69ACC7CB3 /* Headers */,
+				9EF66648DC5217ABB9C27BA3D78B7DA1 /* Sources */,
+				BEE9A3A9024344923E92618BEDE5BECE /* Frameworks */,
+				CCE4AE8D17F8E5D01AB1519903BB14B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B95D4D04501AEF4194BE5D6D7F6306 /* PBXTargetDependency */,
+			);
+			name = "Pods-Vex Watch App-Vex Watch AppUITests";
+			productName = Pods_Vex_Watch_App_Vex_Watch_AppUITests;
+			productReference = 7AC3FACE22AA253E8FC605BCB518D60D /* Pods-Vex Watch App-Vex Watch AppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD9F52E07CA8CCC9E5112A7D8C1CE821 /* AlertToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058CF4B13CD220E4F99FC2BAEA8B57E3 /* Build configuration list for PBXNativeTarget "AlertToast" */;
+			buildPhases = (
+				44A84C91FAC6DAD40F1A43DEF8DDCA81 /* Headers */,
+				E433AAB9933A759630771F55C9A60EBF /* Sources */,
+				347779031190EDC071A4F2E9073598F0 /* Frameworks */,
+				59FC49F4186BE3B64D14966824FEF367 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertToast;
+			productName = AlertToast;
+			productReference = A50F036BE0BFE618C67FA52B80377F3B /* AlertToast */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE69FE8AB101AD37628CA84F6EB71358 /* SSSwiftUIGIFView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734A38764C7D55F8767744B6790B68BD /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFView" */;
+			buildPhases = (
+				F2B63D90B1DE89F8076D6B6C817AFD65 /* Headers */,
+				6A8FB687B998262C13451FE91EC63BB9 /* Sources */,
+				BDBDB5E1A0C9BADD805241F95C3A91C2 /* Frameworks */,
+				C5B2B2F1C8BD5BB65D1860D5C8C77BF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSSwiftUIGIFView;
+			productName = SSSwiftUIGIFView;
+			productReference = ED51E9C639C8FFA6E92E6BECC847BA7D /* SSSwiftUIGIFView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 186E354E331BABBBCC6CB99695F6DC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52561D5B39733F44C2CA140A67A78E57 /* ActivityIndicatorView-iOS */,
+				01517380289AFB775A3195676E55786F /* ActivityIndicatorView-watchOS */,
+				BD9F52E07CA8CCC9E5112A7D8C1CE821 /* AlertToast */,
+				1D4C8A8FC4364EC076E12CA2D0AAA024 /* Pods-Vex */,
+				4E68ECFEAC6B3C44E0A64605F19BADE5 /* Pods-Vex Watch App */,
+				AF182F1E341884CDFCF4BB960A729157 /* Pods-Vex Watch App-Vex Watch AppUITests */,
+				8DE5D7F3A3CAF75FC4EFB96047627BA8 /* Pods-Vex Watch AppTests */,
+				4C24C6128FDED58C4DC1CA2B6FCA8104 /* Pods-Vex-VexUITests */,
+				2B0B981002DB550F84F1C87EE9586E38 /* Pods-VexTests */,
+				BE69FE8AB101AD37628CA84F6EB71358 /* SSSwiftUIGIFView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F8F4AACC686A50CC22FD75EF091CAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FC49F4186BE3B64D14966824FEF367 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD298C0D11F7695C3F8E018B3483698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B2B2F1C8BD5BB65D1860D5C8C77BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C10E5D080DDB1D2FBA1E358F4D7334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE4AE8D17F8E5D01AB1519903BB14B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ED4002259A66C5076E907A8F8C35DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E82621033C93734B67DCEBFEBF9E8B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3B663CF58EAF650B1A604AA2AA9AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9567C7AC8F7973B11F5510D05A7288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D4A13A0DB89E38E003E6D6827090D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD33CAC1D838BBC41FC14A83CC1DA8E /* ActivityIndicatorView.swift in Sources */,
+				28D30537E3ACBAF2BADE111B0AFA4339 /* ActivityIndicatorView-iOS-dummy.m in Sources */,
+				0C5512A8A74F524FD9740BC74898049D /* ArcsIndicatorView.swift in Sources */,
+				D67ECC4531B6047EAD1ED32F1794B2DA /* DefaultIndicatorView.swift in Sources */,
+				343AEDF676DC1DA7E5524D1B233D1C10 /* EqualizerIndicatorView.swift in Sources */,
+				0EFB481B15C70C42834431CE45C72156 /* FlickeringDotsIndicatorView.swift in Sources */,
+				2E96F2DC7FAAF59FED2BCABD11EFE824 /* GradientIndicatorView.swift in Sources */,
+				BD86D010ACA471FD35D701C5E594D52A /* GrowingArcIndicatorView.swift in Sources */,
+				55A1EE50A437472AE24442F2BC950D98 /* GrowingCircleIndicatorView.swift in Sources */,
+				230F24B74196C0C8D5A8370C83A0E754 /* OpacityDotsIndicatorView.swift in Sources */,
+				BBDCD8CFDC62609C8D10DAC5543B125E /* RotatingDotsIndicatorView.swift in Sources */,
+				CA32519351B8EA0111FE250232D247ED /* ScalingDotsIndicatorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60452343BCAF91D957090A28149E0F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745A9DAC204EF7C03FC418BB1FECE0FD /* ActivityIndicatorView.swift in Sources */,
+				6B6C379A1444CACE892E67728901B351 /* ActivityIndicatorView-watchOS-dummy.m in Sources */,
+				31FD4A0EAA9EAFFD1E74D8F63855DA38 /* ArcsIndicatorView.swift in Sources */,
+				C13445F0806F5D1CD0760FC3DE2782B6 /* DefaultIndicatorView.swift in Sources */,
+				D65703BBE2E5B3C67D67A3994BF1C617 /* EqualizerIndicatorView.swift in Sources */,
+				EC54980A918785263F894D083A03E22C /* FlickeringDotsIndicatorView.swift in Sources */,
+				EC103B3E220825BF5A9ABF94B42BABF9 /* GradientIndicatorView.swift in Sources */,
+				462CAEC86170DC7EEB1CB56A152B6191 /* GrowingArcIndicatorView.swift in Sources */,
+				7FC344CD618A4453D7B7FA52E9DAF7C8 /* GrowingCircleIndicatorView.swift in Sources */,
+				B37F93134898CFBCE46EB17DB49C2B71 /* OpacityDotsIndicatorView.swift in Sources */,
+				A0485B99E5C9CA3E355027E035A8F5FA /* RotatingDotsIndicatorView.swift in Sources */,
+				E5DA2E62D84171D5C7F832A302A92731 /* ScalingDotsIndicatorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A8FB687B998262C13451FE91EC63BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908D9E786C0E3A791A872EB031390275 /* GIFPlayerView.swift in Sources */,
+				2FF7211C5466F8C30D4281D3C8A41670 /* SSSwiftUIGIFView-dummy.m in Sources */,
+				14F321E50DEAA838D360FDF97EE2C7B0 /* SwiftUIGIFPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B932C4E228AE29347B71B7CD7A9C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC7A27ABAC05299B88D22C699DE43F7 /* Pods-Vex-VexUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF66648DC5217ABB9C27BA3D78B7DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E5AEBC3DC0AD5F082DC3F9EB6DB5E9 /* Pods-Vex Watch App-Vex Watch AppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B494184E83F3AA5B9444086AE0826015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69E86A02B6931A99C551E1B950D85F4 /* Pods-Vex-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A14C42D0CF6C6D5EE254B83885BEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CD318485E584EA637AA19485626655 /* Pods-VexTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2186803DAD3F4028ADD43503F85A498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A54AEC2C701FD3966A0B8144B7E6D0 /* Pods-Vex Watch AppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84C4CD36B6EC67A3FD19CA22047EEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF19045C938E12E942337B68F8CECD6D /* Pods-Vex Watch App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E433AAB9933A759630771F55C9A60EBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE75918F0786809E98E99512119DF8D /* ActivityIndicator.swift in Sources */,
+				89068BEF39B046B28FD6DA14201044DE /* AlertToast.swift in Sources */,
+				ABCC96A3F5A122791DAB8A1CFA9BD50D /* AlertToast-dummy.m in Sources */,
+				481F3BE2185022F134DFD932BBD79A40 /* BlurView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DB9B06C1F7CBC2CFF8C08164A144C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Vex Watch App";
+			target = 4E68ECFEAC6B3C44E0A64605F19BADE5 /* Pods-Vex Watch App */;
+			targetProxy = F7917951D456AB13715B5E24E191D03C /* PBXContainerItemProxy */;
+		};
+		30FA5728EDD18B1BAC5E63DF577D8650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSSwiftUIGIFView;
+			target = BE69FE8AB101AD37628CA84F6EB71358 /* SSSwiftUIGIFView */;
+			targetProxy = A526E692CC1AB5351E15830B8EACCADB /* PBXContainerItemProxy */;
+		};
+		77665DD7F0F52214D81EEF9BD9C2F2F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActivityIndicatorView-iOS";
+			target = 52561D5B39733F44C2CA140A67A78E57 /* ActivityIndicatorView-iOS */;
+			targetProxy = F043462FC94371B455126F3107EB4C52 /* PBXContainerItemProxy */;
+		};
+		900E284E31404E258A033CAF698EC71B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlertToast;
+			target = BD9F52E07CA8CCC9E5112A7D8C1CE821 /* AlertToast */;
+			targetProxy = 7486385BEBB20721FF137F112F358C77 /* PBXContainerItemProxy */;
+		};
+		9046134AF8601ADAC7B4230E2537925B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlertToast;
+			target = BD9F52E07CA8CCC9E5112A7D8C1CE821 /* AlertToast */;
+			targetProxy = 64F782D06E0A502CCA5188F8129FE97A /* PBXContainerItemProxy */;
+		};
+		AFE1972545839EDEEA7E1BABB2F3D030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActivityIndicatorView-iOS";
+			target = 52561D5B39733F44C2CA140A67A78E57 /* ActivityIndicatorView-iOS */;
+			targetProxy = 594561547D936C105CF9D2BD1EB918C1 /* PBXContainerItemProxy */;
+		};
+		E1656E9D2AD2420159F9C19D77939F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSSwiftUIGIFView;
+			target = BE69FE8AB101AD37628CA84F6EB71358 /* SSSwiftUIGIFView */;
+			targetProxy = A67AE98DD38F1043EA89DD4F3254EA4E /* PBXContainerItemProxy */;
+		};
+		E1B95D4D04501AEF4194BE5D6D7F6306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActivityIndicatorView-watchOS";
+			target = 01517380289AFB775A3195676E55786F /* ActivityIndicatorView-watchOS */;
+			targetProxy = 51E68DE39D3E7C738A632645480F0122 /* PBXContainerItemProxy */;
+		};
+		E82FF28BDA754910079C25CB8368A501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Vex";
+			target = 1D4C8A8FC4364EC076E12CA2D0AAA024 /* Pods-Vex */;
+			targetProxy = C68EF60DA0CE60128DE290870DDC42BA /* PBXContainerItemProxy */;
+		};
+		FA2CB70CE1C519E6A9CA1FFFAA0DEC07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActivityIndicatorView-watchOS";
+			target = 01517380289AFB775A3195676E55786F /* ActivityIndicatorView-watchOS */;
+			targetProxy = 6A4C3639C0C4C5468279727CE0BB1CA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0013B7E708E0CD7B87E4A8A112203B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689E7C9572133B5C26B43BE538FA0C7A /* ActivityIndicatorView-iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActivityIndicatorView-iOS/ActivityIndicatorView-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActivityIndicatorView-iOS/ActivityIndicatorView-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ActivityIndicatorView-iOS/ActivityIndicatorView-iOS.modulemap";
+				PRODUCT_MODULE_NAME = ActivityIndicatorView;
+				PRODUCT_NAME = ActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		018EE40B46CB678CC6959CB41CC36E1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11B65470866C4AFF1AB4FE9A50BAB1CF /* Pods-Vex Watch AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vex Watch AppTests/Pods-Vex Watch AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vex Watch AppTests/Pods-Vex Watch AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		048AFB9BE277D96ECBD14AF2F4DFDCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93203DB415398A78A542EA1E91DED8AB /* AlertToast.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlertToast/AlertToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlertToast/AlertToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AlertToast/AlertToast.modulemap";
+				PRODUCT_MODULE_NAME = AlertToast;
+				PRODUCT_NAME = AlertToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0C78916B7E063A756B3A469566BBDC61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D03389D7EE26238B94D371B557AACE /* ActivityIndicatorView-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActivityIndicatorView-iOS/ActivityIndicatorView-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActivityIndicatorView-iOS/ActivityIndicatorView-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ActivityIndicatorView-iOS/ActivityIndicatorView-iOS.modulemap";
+				PRODUCT_MODULE_NAME = ActivityIndicatorView;
+				PRODUCT_NAME = ActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4756172F9608B57456A88FD35B611AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A810C69717129A0DBF61684318E488A2 /* Pods-Vex.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vex/Pods-Vex-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vex/Pods-Vex.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5626D1290AE79D6A58AC10DA492118EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		5FA94DFBBA8C5AFBF7FD5A57F3492A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEAF9DCC784F212829F7CA6C8FC3346 /* Pods-Vex-VexUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vex-VexUITests/Pods-Vex-VexUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vex-VexUITests/Pods-Vex-VexUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61126A342AB81EB10D472329462C17A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2688942101F0745995C50AD243AE2F61 /* Pods-Vex Watch AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vex Watch AppTests/Pods-Vex Watch AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vex Watch AppTests/Pods-Vex Watch AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		61446AB0673BB611AD4F7FB34F4493CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43155C89B1AE3855B637B223D4DDEB2D /* ActivityIndicatorView-watchOS.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = ActivityIndicatorView;
+				PRODUCT_NAME = ActivityIndicatorView;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		712CFDAE51CE672A3670578C368E8BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676D3B0C8A176527221B133DA4D665FA /* SSSwiftUIGIFView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView.modulemap";
+				PRODUCT_MODULE_NAME = SSSwiftUIGIFView;
+				PRODUCT_NAME = SSSwiftUIGIFView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87084956481E45AB405C53C94045267F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3F0E3B8C2F96AAD296C740175F12CB /* Pods-Vex Watch App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vex Watch App/Pods-Vex Watch App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vex Watch App/Pods-Vex Watch App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		8A0BC8DC8995EF9A59429E3064B9183F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A830BACEC03AAD32E4FF2A3B58941E /* Pods-Vex Watch App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vex Watch App/Pods-Vex Watch App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vex Watch App/Pods-Vex Watch App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		8EE30D1CDB235EB4D0AF5F3255F91113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C94C758FC6793A41BA10A0404BD1DE /* Pods-VexTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VexTests/Pods-VexTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VexTests/Pods-VexTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94AD52F69AB94C40951A87DA627FA7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986C91A9C3AEA7179638396481C351A8 /* Pods-Vex Watch App-Vex Watch AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vex Watch App-Vex Watch AppUITests/Pods-Vex Watch App-Vex Watch AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vex Watch App-Vex Watch AppUITests/Pods-Vex Watch App-Vex Watch AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		A6C5875A3185C6742811BAC2084C30E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C738DD380890C97388D9F8CAF60B518E /* Pods-Vex-VexUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vex-VexUITests/Pods-Vex-VexUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vex-VexUITests/Pods-Vex-VexUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A932022652E8D2C624600BE637AAA688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		B2A60D27F0142B7CBBDC8F7FCA48BDA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18227FAF70E01BD76E4F88C7B48A4D2C /* SSSwiftUIGIFView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView.modulemap";
+				PRODUCT_MODULE_NAME = SSSwiftUIGIFView;
+				PRODUCT_NAME = SSSwiftUIGIFView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7C854466008CDE402EC68A4D7263738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C76994256A8E00305B53EDA632D88A95 /* AlertToast.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlertToast/AlertToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlertToast/AlertToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AlertToast/AlertToast.modulemap";
+				PRODUCT_MODULE_NAME = AlertToast;
+				PRODUCT_NAME = AlertToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB3899973A40BACE7C2E51D553D62356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82786C794901FD2825D426540B5E217 /* Pods-Vex.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vex/Pods-Vex-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vex/Pods-Vex.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D75389A1EE7D7159EE89B2D60DF78D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9722050D7C5127576D59930222505A10 /* ActivityIndicatorView-watchOS.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ActivityIndicatorView-watchOS/ActivityIndicatorView-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = ActivityIndicatorView;
+				PRODUCT_NAME = ActivityIndicatorView;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		DD4B5C40173A811D3666E7DAA281456A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A79623DA54B51D5EFE8C0EE647BBC89 /* Pods-VexTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VexTests/Pods-VexTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VexTests/Pods-VexTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBD489C718648F47A80BE8596AC67886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DBC374598356ABF9FD284CAFF41BCC /* Pods-Vex Watch App-Vex Watch AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Vex Watch App-Vex Watch AppUITests/Pods-Vex Watch App-Vex Watch AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vex Watch App-Vex Watch AppUITests/Pods-Vex Watch App-Vex Watch AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058CF4B13CD220E4F99FC2BAEA8B57E3 /* Build configuration list for PBXNativeTarget "AlertToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C854466008CDE402EC68A4D7263738 /* Debug */,
+				048AFB9BE277D96ECBD14AF2F4DFDCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093BD490559AC5F0D7851A1F49E95A91 /* Build configuration list for PBXNativeTarget "Pods-VexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE30D1CDB235EB4D0AF5F3255F91113 /* Debug */,
+				DD4B5C40173A811D3666E7DAA281456A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DD57A1140254CBEEE76B5336109073 /* Build configuration list for PBXNativeTarget "Pods-Vex-VexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C5875A3185C6742811BAC2084C30E9 /* Debug */,
+				5FA94DFBBA8C5AFBF7FD5A57F3492A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A932022652E8D2C624600BE637AAA688 /* Debug */,
+				5626D1290AE79D6A58AC10DA492118EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61752D256887A88AC110045A2C15B045 /* Build configuration list for PBXNativeTarget "Pods-Vex Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87084956481E45AB405C53C94045267F /* Debug */,
+				8A0BC8DC8995EF9A59429E3064B9183F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65686390933B3BC6FD114A33482F412A /* Build configuration list for PBXNativeTarget "Pods-Vex Watch App-Vex Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AD52F69AB94C40951A87DA627FA7CC /* Debug */,
+				FBD489C718648F47A80BE8596AC67886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734A38764C7D55F8767744B6790B68BD /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2A60D27F0142B7CBBDC8F7FCA48BDA7 /* Debug */,
+				712CFDAE51CE672A3670578C368E8BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9913C04A71787E7F586912E54779F6F5 /* Build configuration list for PBXNativeTarget "ActivityIndicatorView-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C78916B7E063A756B3A469566BBDC61 /* Debug */,
+				0013B7E708E0CD7B87E4A8A112203B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B85AC8DB187A049A8AE9DE5C317C5847 /* Build configuration list for PBXNativeTarget "Pods-Vex Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61126A342AB81EB10D472329462C17A2 /* Debug */,
+				018EE40B46CB678CC6959CB41CC36E1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE06345EFCBDA8AD129DAB254D317165 /* Build configuration list for PBXNativeTarget "Pods-Vex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4756172F9608B57456A88FD35B611AC2 /* Debug */,
+				CB3899973A40BACE7C2E51D553D62356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1EA7B7D5453C068D512E4FABD51829 /* Build configuration list for PBXNativeTarget "ActivityIndicatorView-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D75389A1EE7D7159EE89B2D60DF78D42 /* Debug */,
+				61446AB0673BB611AD4F7FB34F4493CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
