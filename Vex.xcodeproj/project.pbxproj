@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0B035C4D5942A4D2422E6096 /* Pods_Vex_Watch_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F3F46957559622DF1E5CF5 /* Pods_Vex_Watch_AppTests.framework */; };
 		36010289C0437AD8744E8951 /* Pods_Vex_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66B5A6D3B8BEE411B2798C1 /* Pods_Vex_Watch_App.framework */; };
+		9B9C228429927B59000B8F66 /* Vex.app in Resources */ = {isa = PBXBuildFile; fileRef = ACDC50B629445A7C00E12CBC /* Vex.app */; };
+		9B9C228829927C40000B8F66 /* TerraRTiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 9B9C228729927C40000B8F66 /* TerraRTiOS */; };
 		A898C76BB29035D5A11CDB2C /* Pods_Vex_Watch_App_Vex_Watch_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8F4C9ACB88758797604222 /* Pods_Vex_Watch_App_Vex_Watch_AppUITests.framework */; };
 		AC32F78129717B5800BBF144 /* load.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC32F78029717B5800BBF144 /* load.gif */; };
 		AC32F78529717D4E00BBF144 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC32F78429717D4E00BBF144 /* loader.gif */; };
@@ -58,6 +60,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9B9C228529927B59000B8F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDC50AE29445A7C00E12CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDC50B529445A7C00E12CBC;
+			remoteInfo = Vex;
+		};
 		ACBB777B2968589300A00E70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ACDC50AE29445A7C00E12CBC /* Project object */;
@@ -210,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36010289C0437AD8744E8951 /* Pods_Vex_Watch_App.framework in Frameworks */,
+				9B9C228829927C40000B8F66 /* TerraRTiOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,9 +490,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				9B9C228629927B59000B8F66 /* PBXTargetDependency */,
 			);
 			name = "Vex Watch App";
 			packageProductDependencies = (
+				9B9C228729927C40000B8F66 /* TerraRTiOS */,
 			);
 			productName = "Vex Watch App";
 			productReference = ACDC50DC29445A7E00E12CBC /* Vex Watch App.app */;
@@ -617,6 +629,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9C228429927B59000B8F66 /* Vex.app in Resources */,
 				ACDC50E929445A8000E12CBC /* Preview Assets.xcassets in Resources */,
 				ACDC50E629445A8000E12CBC /* Assets.xcassets in Resources */,
 			);
@@ -921,6 +934,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9B9C228629927B59000B8F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDC50B529445A7C00E12CBC /* Vex */;
+			targetProxy = 9B9C228529927B59000B8F66 /* PBXContainerItemProxy */;
+		};
 		ACBB777C2968589300A00E70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ACDC50DB29445A7E00E12CBC /* Vex Watch App */;
@@ -1466,6 +1484,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9B9C228729927C40000B8F66 /* TerraRTiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACBB77752968566400A00E70 /* XCRemoteSwiftPackageReference "TerraRTiOS" */;
+			productName = TerraRTiOS;
+		};
 		ACBB77762968566400A00E70 /* TerraRTiOS */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = ACBB77752968566400A00E70 /* XCRemoteSwiftPackageReference "TerraRTiOS" */;
