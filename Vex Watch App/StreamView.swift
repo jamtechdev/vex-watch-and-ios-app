@@ -7,7 +7,7 @@
 
 import SwiftUI
 import HealthKit
-//import ActivityIndicatorView
+import ActivityIndicatorView
 import WatchConnectivity
 import TerraRTiOS
 import UIKit
